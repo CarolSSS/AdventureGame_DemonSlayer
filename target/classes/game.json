@@ -1,0 +1,105 @@
+{
+  "startingRoom": "Home",
+  "endingRoom": "Win",
+  "rooms": [
+    {
+      "name": "Home",
+      "description": "You just finished your Demon Slayer Corps Test, so you are now an official member. \nYour mission is to practice your skills and kill the demons.",
+      "items": ["Nezuko","dog"],
+      "directions": [
+        {
+          "directionName": "vacation",
+          "room": "Vacation"
+        },
+        {
+          "directionName": "practice",
+          "room": "Practice"
+        }
+      ]
+    },
+    {
+      "name": "Practice",
+      "description": "You arrive at the practicing center. You feel like you are becoming more and more powerful.",
+      "items": ["Suite"],
+      "directions": [
+        {
+          "directionName": "practice",
+          "room": "Practice"
+        },
+        {
+          "directionName": "out",
+          "room": "Preparation"
+        }
+      ]
+    },
+
+    {
+      "name": "Vacation",
+      "description": "You arrive at a Onsen in Tokyo. You have a lot of fun with your friend Tanjiro.",
+      "items": [],
+      "directions": [
+        {
+          "directionName": "practice",
+          "room": "Practice"
+        },
+        {
+          "directionName": "vacation",
+          "room": "Vacation"
+        }
+      ]
+    },
+
+    {
+      "name": "Preparation",
+      "description": "Leading by Tengen Uzui, you and Tanjiro arrive at Yoshihara. Tengen went unconscious.",
+      "items": [],
+      "directions": [
+        {
+          "directionName": "practice",
+          "room": "Practice"
+        },
+        {
+          "directionName": "fight",
+          "room": "Fighting"
+        }
+      ]
+    },
+    {
+      "name": "Fighting",
+      "description": "Your knife broke. Tanjiro was seriously injured so he couldn't move anymore.",
+      "items": ["Sword"],
+      "directions": [
+        {
+          "directionName": "Continue",
+          "room": "Win"
+        },
+        {
+          "directionName": "Running",
+          "room": "Lose"
+        }
+      ]
+    },
+    {
+      "name": "Win",
+      "description": "Tanjiro poisons the demon and gives you the chance to cut it on neck.\n You successfully defeat the demon",
+      "items": ["Prize"],
+      "directions": [
+        {"directionName": "Continue",
+          "room": "Win"
+        }
+      ]
+    },
+    {
+      "name": "Lose",
+      "description": "Kochou Shinobu comes. She defeats the demon but is angry at you.\n You need more practice. ",
+      "items": [],
+      "directions": [
+        {
+          "directionName": "Practice",
+          "room": "Practice"
+        }
+      ]
+    }
+  ]
+
+}
