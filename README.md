@@ -7,5 +7,3 @@ Here is the link for UI: https://courses.grainger.illinois.edu/cs126/sp2022/adve
 
 <img src = 'image.png'>
 
-
-The testing part uses an external library called SystemOutRule: https://stefanbirkner.github.io/system-rules/download.html
